@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11222.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpikersArchipelago", "SpikersArchipelago.csproj", "{B7461830-6396-471B-8D88-F43F288CD62E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNA.Core", "..\FNA\FNA.Core.csproj", "{B955E668-3D04-C971-D3D3-26D12AA164FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terraria", "..\src\Terraria\Terraria\Terraria.csproj", "{FCAB69ED-5561-98E7-997F-B3CDB3F34DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReLogic", "..\src\Terraria\ReLogic\ReLogic.csproj", "{E28A11A3-7281-6391-B37C-6A756D5BFB97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7461830-6396-471B-8D88-F43F288CD62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7461830-6396-471B-8D88-F43F288CD62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7461830-6396-471B-8D88-F43F288CD62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7461830-6396-471B-8D88-F43F288CD62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B955E668-3D04-C971-D3D3-26D12AA164FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B955E668-3D04-C971-D3D3-26D12AA164FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B955E668-3D04-C971-D3D3-26D12AA164FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B955E668-3D04-C971-D3D3-26D12AA164FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAB69ED-5561-98E7-997F-B3CDB3F34DD2}.Debug|Any CPU.ActiveCfg = WindowsDebug|Any CPU
+		{FCAB69ED-5561-98E7-997F-B3CDB3F34DD2}.Debug|Any CPU.Build.0 = WindowsDebug|Any CPU
+		{FCAB69ED-5561-98E7-997F-B3CDB3F34DD2}.Release|Any CPU.ActiveCfg = WindowsDebug|Any CPU
+		{FCAB69ED-5561-98E7-997F-B3CDB3F34DD2}.Release|Any CPU.Build.0 = WindowsDebug|Any CPU
+		{E28A11A3-7281-6391-B37C-6A756D5BFB97}.Debug|Any CPU.ActiveCfg = WindowsDebug|Any CPU
+		{E28A11A3-7281-6391-B37C-6A756D5BFB97}.Debug|Any CPU.Build.0 = WindowsDebug|Any CPU
+		{E28A11A3-7281-6391-B37C-6A756D5BFB97}.Release|Any CPU.ActiveCfg = WindowsDebug|Any CPU
+		{E28A11A3-7281-6391-B37C-6A756D5BFB97}.Release|Any CPU.Build.0 = WindowsDebug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCF65BF6-9A5E-4A18-A39F-9BA27E8C597A}
+	EndGlobalSection
+EndGlobal

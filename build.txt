@@ -1,0 +1,9 @@
+displayName = Archipelago Randomizer (Spikers' implementation)
+author = Spikers
+version = 0.3
+homepage = https://github.com/Seldom-SE/archipelago_terraria_client
+includeSource = true
+dllReferences = Archipelago.MultiClient.Net, Newtonsoft.Json
+weakReferences = CalamityMod
+sortAfter = CalamityMod
+buildIgnore = ref\*
